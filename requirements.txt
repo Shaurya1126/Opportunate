@@ -1,0 +1,6 @@
+pandas
+flask
+google-genai
+seaborn
+sklearn.preprocessing
+gunicorn

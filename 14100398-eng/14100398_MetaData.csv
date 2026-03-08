@@ -1,0 +1,130 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Job vacancies, payroll employees, and job vacancy rate, by economic regions, quarterly, adjusted for seasonality","14100398",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410039801",1;7,"CURRENT - a cube available to the public and that is current","Quarterly","2015-01-01","2025-07-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",2,""
+"2","Statistics",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","6","1","",,
+"1","Nova Scotia","[12]","8","1","",,
+"1","New Brunswick","[13]","14","1","",,
+"1","Quebec","[24]","20","1","",,
+"1","Ontario","[35]","37","1","",,
+"1","Manitoba","[46]","49","1","",,
+"1","Saskatchewan","[47]","56","1","",,
+"1","Alberta","[48]","62","1","",,
+"1","British Columbia","[59]","70","1","",,
+"1","Yukon","[60]","78","1","",,
+"1","Northwest Territories","[61]","80","1","",,
+"1","Nunavut","[62]","82","1","",,
+"1","Avalon Peninsula, Newfoundland and Labrador","[1010]","3","2","",,
+"1","South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador","","4","2","",6,
+"1","West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador","[1030]","5","2","",,
+"1","Prince Edward Island","[1110]","7","6","",,
+"1","Cape Breton, Nova Scotia","[1210]","9","8","",,
+"1","North Shore, Nova Scotia","[1220]","10","8","",,
+"1","Annapolis Valley, Nova Scotia","[1230]","11","8","",,
+"1","Southern, Nova Scotia","[1240]","12","8","",,
+"1","Halifax, Nova Scotia","[1250]","13","8","",,
+"1","Campbellton-Miramichi, New Brunswick","[1310]","15","14","",,
+"1","Moncton-Richibucto, New Brunswick","[1320]","16","14","",,
+"1","Saint John-St. Stephen, New Brunswick","[1330]","17","14","",,
+"1","Fredericton-Oromocto, New Brunswick","[1340]","18","14","",,
+"1","Edmundston-Woodstock, New Brunswick","[1350]","19","14","",,
+"1","Gaspésie-Îles-de-la-Madeleine, Quebec","[2410]","21","20","",,
+"1","Bas-Saint-Laurent, Quebec","[2415]","22","20","",,
+"1","Capitale-Nationale, Quebec","[2420]","23","20","",,
+"1","Chaudière-Appalaches, Quebec","[2425]","24","20","",,
+"1","Estrie, Quebec","[2430]","25","20","",,
+"1","Montérégie, Quebec","[2435]","27","20","",,
+"1","Montréal, Quebec","[2440]","28","20","",,
+"1","Laval, Quebec","[2445]","29","20","",,
+"1","Lanaudière, Quebec","[2450]","30","20","",,
+"1","Laurentides, Quebec","[2455]","31","20","",,
+"1","Outaouais, Quebec","[2460]","32","20","",,
+"1","Abitibi-Témiscamingue, Quebec","[2465]","33","20","",,
+"1","Mauricie, Quebec","[2470]","34","20","",,
+"1","Saguenay-Lac-Saint-Jean, Quebec","[2475]","35","20","",,
+"1","Côte-Nord and Nord-du-Québec, Quebec","","36","20","",6,
+"1","Centre-du-Québec, Quebec","[2433]","26","20","",,
+"1","Ottawa, Ontario","[3510]","38","37","",,
+"1","Kingston-Pembroke, Ontario","[3515]","39","37","",,
+"1","Muskoka-Kawarthas, Ontario","[3520]","40","37","",,
+"1","Toronto, Ontario","[3530]","41","37","",,
+"1","Kitchener-Waterloo-Barrie, Ontario","[3540]","42","37","",,
+"1","Hamilton-Niagara Peninsula, Ontario","[3550]","43","37","",,
+"1","London, Ontario","[3560]","44","37","",,
+"1","Windsor-Sarnia, Ontario","[3570]","45","37","",,
+"1","Stratford-Bruce Peninsula, Ontario","[3580]","46","37","",,
+"1","Northeast, Ontario","[3590]","47","37","",,
+"1","Northwest, Ontario","[3595]","48","37","",,
+"1","Southeast, Manitoba","[4610]","50","49","",,
+"1","South Central and North Central, Manitoba","","51","49","",6,
+"1","Southwest, Manitoba","[4630]","52","49","",,
+"1","Winnipeg, Manitoba","[4650]","53","49","",,
+"1","Interlake, Manitoba","[4660]","54","49","",,
+"1","Parklands and North, Manitoba","","55","49","",6,
+"1","Regina-Moose Mountain, Saskatchewan","[4710]","57","56","",,
+"1","Swift Current-Moose Jaw, Saskatchewan","[4720]","58","56","",,
+"1","Saskatoon-Biggar, Saskatchewan","[4730]","59","56","",,
+"1","Yorkton-Melville, Saskatchewan","[4740]","60","56","",,
+"1","Prince Albert and Northern, Saskatchewan","","61","56","",6,
+"1","Lethbridge-Medicine Hat, Alberta","[4810]","63","62","",,
+"1","Camrose-Drumheller, Alberta","[4820]","64","62","",,
+"1","Calgary, Alberta","[4830]","65","62","",,
+"1","Banff-Jasper-Rocky Mountain House and Athabasca-Grande Prairie-Peace River, Alberta","","66","62","",6,
+"1","Red Deer, Alberta","[4850]","67","62","",,
+"1","Edmonton, Alberta","[4860]","68","62","",,
+"1","Wood Buffalo-Cold Lake, Alberta","[4880]","69","62","",,
+"1","Vancouver Island and Coast, British Columbia","[5910]","71","70","",,
+"1","Lower Mainland-Southwest, British Columbia","[5920]","72","70","",,
+"1","Thompson-Okanagan, British Columbia","[5930]","73","70","",,
+"1","Kootenay, British Columbia","[5940]","74","70","",,
+"1","Cariboo, British Columbia","[5950]","75","70","",,
+"1","North Coast and Nechako, British Columbia","","76","70","",6,
+"1","Northeast, British Columbia","[5980]","77","70","",,
+"1","Yukon","[6010]","79","78","",,
+"1","Northwest Territories","[6110]","81","80","",,
+"1","Nunavut","[6210]","83","82","",,
+"1","Canada","[11124]","1","","",,
+"2","Job vacancies","","1","","",3,
+"2","Payroll employees","","2","","",4,
+"2","Job vacancy rate","","3","","",5,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5217","Job Vacancy and Wage Survey"
+
+"Subject Code","Subject Name"
+"14","Labour"
+
+"Note ID",Note
+1,"Data quality indicators are based on the coefficient of variation (CV), the non-response errors, the imputation errors, and subject matter expertise: A – Excellent; B - Very good; C - Good; D – Acceptable; E - Use with caution; F - Too unreliable to publish."
+2,"An economic region (ER) is a grouping of complete census divisions (with one exception in Ontario) created as a standard geographic unit for analysis of regional economic activity. Canada has 76 ERs that are classified in accordance with the <a href="https://www.statcan.gc.ca/en/subjects/standard/sgc/2021/index" rel="external noopener noreferrer" target="_blank">Standard Geographical Classification (SGC) 2021 (opens new window)</a>, which is based on 2021 Census boundaries. The Job Vacancy and Wage Survey (JVWS) publishes estimates for 69 ERs, seven of which are combined. These seven combined ERs are the same as those published by the Labour Force Survey. Maps illustrating the ERs, as well as a table showing the census metropolitan areas (CMAs) and census agglomerations (CAs) within each ER, are available by selecting the “JVWS Geographical Maps” link at the bottom of the JVWS survey page (<a href="http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5217" rel="external noopener noreferrer" target="_blank">5217 (opens new window)</a>."
+3,"A job is vacant if it meets the following conditions: it is vacant on the reference date (first day of the month) or will become vacant during the month; there are tasks to be carried out during the month for the job in question; and the employer is actively seeking a worker outside the organization to fill the job. The jobs could be full-time, part-time, permanent, temporary, casual, or seasonal. Jobs reserved for subcontractors, external consultants, or other workers who are not considered employees, are excluded."
+4,"The 'employee' concept used in the Job Vacancy and Wage Survey (JVWS) is comprised of full-time employees, part-time employees, as well as permanent, casual, temporary, and seasonal employees. It also includes working owners, directors, partners, and other officers of incorporated businesses, as well as employees who work at home or on the road but report to the location. The ‘employee' concept used in the JVWS is meant to exclude owners or partners of unincorporated businesses and professional practices, the self-employed, subcontractors, external consultants, unpaid family workers, persons working outside Canada, and military personnel. It also excludes employees on unpaid leave, such as those on extended sick leave who are receiving insurance benefits. The employment estimates from the JVWS are calibrated to the employment estimates from the <a href="http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=2612" rel="external noopener noreferrer" target="_blank">Survey of Employment, Payrolls and Hours (opens new window)</a> (SEPH) at the North American Industry Classification System sector (NAICS2) level by province."
+5,"The job vacancy rate is the number of job vacancies expressed as a percentage of labour demand; that is, all occupied and vacant jobs."
+6,"While 76 economic regions are defined for the purposes of sampling, some are too small to enable production of independent estimates from the survey. These economic regions were combined to improve data quality of the Job Vacancy and Wage Survey estimates."
+7,"Data for the second and third quarters of 2020 are unavailable due to some Statistics Canada operations being temporarily suspended during the COVID-19 pandemic."
+
+"Correction ID","Correction Date","Correction Note"
+"3477","2022-06-24","On June 24, 2022, data from the first quarter of 2015 to the fourth quarter of 2020 was corrected for all series.",
+
