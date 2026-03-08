@@ -1,6 +1,5 @@
-pandas
 flask
+flask-cors
 google-genai
-seaborn
-sklearn.preprocessing
-gunicorn
+pandas
+scikit-learn
