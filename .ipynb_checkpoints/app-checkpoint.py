@@ -9,11 +9,13 @@ CORS(app)
 
 # Serve the frontend
 @app.route('/')
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 def index():
     return send_from_directory('.', 'index.html')
 
 merged = pd.read_csv('canadian_immigration.csv')
-client = genai.Client(api_key="AIzaSyDlqPpmSFiwEV81kr17rWIt4hk8oQ4k_UU")
+client = genai.Client(api_key="GEMINI_API_KEY")
 dataset_context = merged.to_string()
 
 prompt = """
