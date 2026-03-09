@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from google import genai
@@ -12,7 +13,7 @@ def index():
     return send_from_directory('.', 'index.html')
 
 merged = pd.read_csv('canadian_immigration.csv')
-client = genai.Client(api_key="AIzaSyA85R4zTFzJ0m44-cCV0eqo2CDQr8LPDS0")
+client = genai.Client(api_key="AIzaSyDlqPpmSFiwEV81kr17rWIt4hk8oQ4k_UU")
 dataset_context = merged.to_string()
 
 prompt = """
