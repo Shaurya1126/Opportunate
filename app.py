@@ -58,6 +58,10 @@ def ask():
     question = data['question']
     response = ask_gemini(question)
     return jsonify({'answer': response})
-
+    
+@app.route('/download/canadian_immigration.csv')
+def download_csv():
+    return send_from_directory('.', 'canadian_immigration.csv', as_attachment=True)
+    
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
