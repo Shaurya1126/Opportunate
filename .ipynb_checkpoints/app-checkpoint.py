@@ -15,7 +15,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Serve the frontend
 @app.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('.', 'opportunate_immigration.html')
 
 merged = pd.read_csv('canadian_immigration.csv')
 client = genai.Client(api_key=GEMINI_API_KEY)
