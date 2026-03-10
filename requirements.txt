@@ -2,5 +2,6 @@ pandas
 flask
 google-genai
 seaborn
-sklearn.preprocessing
-gunicorn
+scikit-learn
+flask-cors
+python-dotenv
