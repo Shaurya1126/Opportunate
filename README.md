@@ -1,16 +1,16 @@
-#Opportunate: A Data-Driven AI Solution to Canada's Immigration Crisis
+# Opportunate: A Data-Driven AI Solution to Canada's Immigration Crisis
 
 Opportunate is engineered by over 7 merged datasets from StatsCan and uses Gemini's API to provide a frontend where individuals can ask the AI assistant questions and it will answer through utilizing the dataset.
 
-##Objective:
+## Objective:
 
 The primary goal of this project is to figure out why many Canadians have such a paradoxical mindset regarding immigration. Some argue that it is necessary to grow the nation, while others highlight how we are unable to support it extensively due to a lack of infrastructure, high cost of living, and less job opportunities. Opportunaet provides a solution to that as it uses my engineered dataset to highlight how there are numerous economic regions within Canada that can truly benefit from immigrants and where immigrants can obtain many opportunities for their goals.
 
-##Solution:
+## Solution:
 
 My project functions based of the many new columns I engineered; specifically, the **Canadian Opportunity Index.** This index provides a weightage to each economic region in Canada basedupon its cost of living and available jobs. This helps an individual considering to migrate to the nation analyze how they can get the best out of their decision through utilizing the Canadian Opportunity Index. 
 
-##Data Analysis
+## Data Analysis
 
 My data analysis highlighted a crucial nuance that can help both the nation and individuals moving to Canada alike: rural areas & Atlantic Canada need immigrants the most. This is due to their extensively high Canadian Opportunity Index demonstrating that there is a lack of people supporting that region, and it can truly benefit from an influx of migrants. 
 
@@ -28,11 +28,11 @@ Moreover, we can also see how urban regions rank in comparison to rural regions 
 
 Like the previous diagram, this barplot further highlights how rural regions are the ones that need immigration extensively more than urban ones within Canada.
 
-##Feature Engineering:
+## Feature Engineering:
 
 The raw data from Statistics Canada gave much insight into the regions yet lacked correlation with how this information could be benefitial for individuals and be utilized by my target group: immigrants. To help tackle this, I engineered over 12 new columns to truly help answer the question "Where should an immigrant move?" 
 
-###Derived features
+### Derived features
 
 Job_Growth_Potential: Calculated through finding the ratio between the Job_Vacancy for Q3 2025 to the Payroll_Employees in Q3 2025. This column helps highlight whether a region truly holds untouched opportunities for an individual that can be beneficial to a person trying to survive in the nation.
 
@@ -46,7 +46,7 @@ Immigrant_Density: Calculated through finding the ratio in the change of immigra
 
 Lastly, I used MinMaxScaler to normalize all these values and other columns already within the dataset to between 0-1 so that their weightage would be equal and they could equally contribute to the Canadian Opportunity Index.
 
-##Canadian Opportunity Index:
+## Canadian Opportunity Index:
 
 All data and derived columns contribute to this weightage system and act as the final composite score, the pillar of the dataset:
 
@@ -72,7 +72,7 @@ Canadian_Opportunity_Index = (
 
 This value is then normalized to 0-1 using MinMaxScaler, with 1 representing the best region for Immigrants.
 
-##Conclusion
+## Conclusion
 
 The merged dataset contains over 72 economic regions, 57 columns, and combines over seven StatsCan datasets. 
 
