@@ -52,6 +52,10 @@ def ask_gemini(question):
     response = client.models.generate_content(model='gemini-2.5-flash-lite', contents=final)
     return response.text
 
+@app.route('/ping')
+def ping():
+    return 'OK', 200
+
 @app.route('/ask', methods=['POST'])
 def ask():
     data = request.json
