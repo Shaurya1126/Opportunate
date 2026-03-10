@@ -50,25 +50,25 @@ Lastly, I used MinMaxScaler to normalize all these values and other columns alre
 
 All data and derived columns contribute to this weightage system and act as the final composite score, the pillar of the dataset:
 
-Canadian_Opportunity_Index = (
-    # Employment — 40%
-    Job_Growth_Potential * 0.40 +
+Canadian_Opportunity_Index =
 
-    # Migration Signals — 20%
-    Net_Migration_Rate * 0.12 +
-    Delta_Immigrant_Per_Capita * 0.08 +
+  Employment (40%)
+  + 0.40 × Job_Growth_Potential
 
-    # Affordability — 25%
-    (1 - Shelter_Expenditure_Scaled) * 0.12 +
-    (1 - Food_Expenditure_Scaled) * 0.05 +
-    (1 - Transportation_Expenditure_Scaled) * 0.05 +
-    Public_Transport_Expenditure_Scaled * 0.03 +
+  Migration Signals (20%)
+  + 0.12 × Net_Migration_Rate
+  + 0.08 × Delta_Immigrant_Per_Capita
 
-    # Community & Quality of Life — 15%
-    Natural_Growth_Rate * 0.05 +
-    (1 - Healthcare_Expenditure_Scaled) * 0.05 +
-    Education_Expenditure_Scaled * 0.05
-)
+  Affordability (25%)
+  + 0.12 × (1 − Shelter_Expenditure_Scaled)
+  + 0.05 × (1 − Food_Expenditure_Scaled)
+  + 0.05 × (1 − Transportation_Expenditure_Scaled)
+  + 0.03 × Public_Transport_Expenditure_Scaled
+
+  Community & Quality of Life (15%)
+  + 0.05 × Natural_Growth_Rate
+  + 0.05 × (1 − Healthcare_Expenditure_Scaled)
+  + 0.05 × Education_Expenditure_Scaled
 
 This value is then normalized to 0-1 using MinMaxScaler, with 1 representing the best region for Immigrants.
 
