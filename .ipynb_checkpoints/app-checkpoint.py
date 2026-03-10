@@ -3,19 +3,22 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from google import genai
 import pandas as pd
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
-# Serve the frontend
-@app.route('/')
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
+
+# Serve the frontend
+@app.route('/')
 def index():
     return send_from_directory('.', 'index.html')
 
 merged = pd.read_csv('canadian_immigration.csv')
-client = genai.Client(api_key="GEMINI_API_KEY")
+client = genai.Client(api_key=GEMINI_API_KEY)
 dataset_context = merged.to_string()
 
 prompt = """
